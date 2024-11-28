@@ -7,6 +7,11 @@ body {
   padding: 0;
   background: url(https://josetxu.com/img/fondo_blanco.png) repeat 0 0 #fff; }
 
+.boxesContainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%; }
+
 h1 {
   background: #333;
   color: #fff;
@@ -21,10 +26,7 @@ h1 {
   margin: 1% 0 0 1%;
   perspective: 800px;
   transition: all 0.3s ease 0s;
-  width: 23.7%; }
-
-.cardBox:hover .card {
-  transform: rotateY(180deg); }
+  width: 30%; }
 
 .card {
   background: #222;
@@ -35,6 +37,9 @@ h1 {
   width: 100%;
   -webkit-animation: giro 1s 1;
   animation: giro 1s 1; }
+
+.card img {
+  width: 100%; }
 
 .card p {
   margin-bottom: 1.8em; }
